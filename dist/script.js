@@ -515,8 +515,8 @@ Object(_lib_lib__WEBPACK_IMPORTED_MODULE_0__["default"])('div').click(function (
   console.log(Object(_lib_lib__WEBPACK_IMPORTED_MODULE_0__["default"])(this).index());
 }); // console.log($('div').eq(2).find('.more'));
 // console.log($('.some').closest('.findme'));
-
-Object(_lib_lib__WEBPACK_IMPORTED_MODULE_0__["default"])('button').fadeIn(1800); // console.log($('button').html('Hello'));
+// $('button').fadeIn(1800);
+// console.log($('button').html('Hello'));
 
 /***/ })
 
