@@ -56,3 +56,15 @@ $.prototype.fadeOut = function(dur, fin) {
 
     return this;
 };
+
+$.prototype.fadeToggle = function(dur) {
+    for (let i = 0; i < this.length; i++) {
+        if (window.getComputedStyle(this[i]).display === 'none') {
+           $(this[i]).fadeIn(dur);
+        } else {
+           $(this[i]).fadeOut(dur);
+        }
+    }
+
+    return this;
+};
