@@ -44,3 +44,6 @@ $('#trigger').click(() => $('#trigger').createModal({
         ]
     }
 }));
+
+// $().get()
+//    .then(res => console.log(res));
